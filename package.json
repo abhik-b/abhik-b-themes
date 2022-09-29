@@ -1,0 +1,24 @@
+{
+  "name": "green-writer-theme",
+  "displayName": "Green Writer Theme",
+  "description": "This theme is based on markdown writing themes. It is created for my personal use.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "repository": {
+    "url": ""
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Green Writer Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Green Writer Theme-color-theme.json"
+      }
+    ]
+  }
+}
