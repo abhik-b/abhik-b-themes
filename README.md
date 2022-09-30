@@ -1,133 +1,21 @@
-# Green Accent Writer Theme README
+# Abhik B Themes README
 
-This theme is mainly designed for writing **MARKDOWN**. This is a dark theme. This theme is built for my own needs. I will highly encourage you to use it for writing purposes.
+These themes are mainly designed for my personal preferences & needs. These are dark themes. I will highly encourage you to use it. Just download the entire repo & place it into the `<user home>/.vscode/extensions` folder and restart VS Code.
 
 ## ScreenShots
 
-![](/screenshots/Screenshot%201.png)
-![](/screenshots/Screenshot%202.png)
+### Green Theme
 
-## How to customize ?
+This theme is mainly designed for writing **MARKDOWN**. This is a dark theme with a green accent. This theme is built loosely on "Things" theme for obsidian . I will highly encourage you to use it for writing markdown purposes.
 
-You can customize the UI Colors of vscode by changing the properties in `settings.json`. To open `settings.json` , open command pallete & search for **"Preferences : Open User Settings (JSON)"** & then customize the properties like below(example):
+![green-theme-1](/screenshots/Screenshot%201.png)
+![green-theme-2](/screenshots/Screenshot%202.png)
 
-> Note : This will customize only this theme colors
+### Vibrant Theme
 
-```json
-"workbench.colorCustomizations": {
-    ["Green Accent Writer Theme"]:{
-        "editor.background": "#22272e",
-        "editor.foreground": "#eee",
-        "activityBar.activeBorder": "#3aac72",
-        "activityBarBadge.background": "#3aac72",
-        "tab.activeBorder": "#3aac72",
-  }
-},
+This theme is mainly designed for writing `code` & _Markdown_. This is a dark theme with a blue accent. This theme is built completely from scatch. I will highly encourage you to use it for writing anything.
 
-  "editor.tokenColorCustomizations": {
-    ["Green Accent Writer Theme"]:{
-        "textMateRules": [
-            {
-            "name": "Support type",
-            "scope": [
-                "support.type.property-name",
-            ],
-            "settings": {
-                "foreground": "#ddd"
-            }
-            },
-            {
-            "name": "Support",
-            "scope": "support.function",
-            "settings": {
-                "foreground": "#06d6a0"
-            }
-            },
-            {
-            "name": "Attribute class",
-            "scope": [
-                "entity.other.attribute-name.class.css",
-            ],
-            "settings": {
-                "foreground": "#ffe74e"
-            }
-            },
-            {
-            "name": "Attribute IDs",
-            "scope": [
-                "entity.other.attribute-name.id",
-                "entity.other.attribute-name.id.css"
-            ],
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#cd69ff"
-            }
-            },
-            {
-            "name": "Tags",
-            "scope": [
-                "entity.name.tag",
-                "entity.name.tag.css"
-            ],
-            "settings": {
-                "foreground": "#58afff"
-            }
-            },
-            {
-            "name": "markup.italic.markdown",
-            "scope": "markup.italic.markdown",
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#fc5ff7"
-            }
-            },
-            {
-            "name": "markup.bold.markdown",
-            "scope": "markup.bold.markdown,punctuation.definition.bold.markdown",
-            "settings": {
-                "fontStyle": "bold",
-                "foreground": "#fcea5f"
-            }
-            },
-            {
-            "name": "[VSCODE-CUSTOM] Markdown headings",
-            "scope": [
-                "entity.name.section.markdown",
-                "punctuation.definition.heading.markdown"
-            ],
-            "settings": {
-                "foreground": "#fe4863"
-            }
-            },
-            {
-            "name": "punctuation.definition.list.begin.markdown",
-            "scope": "punctuation.definition.list.begin.markdown",
-            "settings": {
-                "foreground": "#06d6a0"
-            }
-            },
-            {
-            "name": "[VSCODE-CUSTOM] Markdown Link Title/Description",
-            "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
-            "settings": {
-                "foreground": "#42a2fd"
-            }
-            },
-            {
-            "name": "Integers",
-            "scope": "constant.numeric",
-            "settings": {
-                "foreground": "#ffdb93"
-            }
-            },
-            {
-            "name": "js/ts variable.other.constant",
-            "scope": "variable.other.constant",
-            "settings": {
-                "foreground": "#ddd"
-            }
-            },
-        ]
-    }
-  },
-```
+![vibrant-theme-1](/screenshots/Screenshot%203.png)
+![vibrant-theme-2](/screenshots/Screenshot%204.png)
+![vibrant-theme-3](/screenshots/Screenshot%205.png)
+![vibrant-theme-4kv](/screenshots/Screenshot%206.png)

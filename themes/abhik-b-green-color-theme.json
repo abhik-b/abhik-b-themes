@@ -1,5 +1,5 @@
 {
-	"name": "Green Accent Writer Theme",
+	"name": "Abhik B Green Theme",
 	"type": "dark",
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
@@ -778,7 +778,8 @@
 			"name": "Tags",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#00A6FB"
+				// "foreground": "#00A6FB"
+				"foreground": "#3aac72"
 			}
 		},
 		{

@@ -1,13 +1,13 @@
 {
-  "name": "green-writer-theme",
-  "displayName": "Green Writer Theme",
-  "description": "This theme is based on markdown writing themes. It is created for my personal use.",
-  "version": "0.0.1",
+  "name": "abhik-b-themes",
+  "displayName": "Abhik B Themes",
+  "description": "This themes are based on my personal preferences.",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.71.0"
   },
   "repository": {
-    "url": "https://github.com/abhik-b/green-writer-theme.git"
+    "url": "https://github.com/abhik-b/abhik-b-themes.git"
   },
   "categories": [
     "Themes"
@@ -15,9 +15,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Green Writer Theme",
+        "label": "Abhik B Green Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Green Writer Theme-color-theme.json"
+        "path": "./themes/abhik-b-green-color-theme.json"
+      },
+      {
+        "label": "Abhik B Vibrant Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abhik-b-vibrant-theme-color-theme.json"
       }
     ]
   }
