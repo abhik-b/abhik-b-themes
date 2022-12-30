@@ -22,7 +22,12 @@
       {
         "label": "Abhik B Vibrant Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/abhik-b-vibrant-theme-color-theme.json"
+        "path": "./themes/abhik-b-dark-vibrant-color-theme.json"
+      },
+      {
+        "label": "Abhik B Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/abhik-b-light-theme.json"
       }
     ]
   }
